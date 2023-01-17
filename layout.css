@@ -1,0 +1,42 @@
+html{
+
+}
+
+.ourClass{
+    width: 100%;
+    background-color: green;
+
+} 
+
+#myID{
+left: 34;
+background-color: aqua;
+width: 20%;
+}
+
+h1, h2, h3, h4 p{
+    text-decoration-line: line-through;
+}
+
+/*Pseudo class*/
+
+a{
+    text-decoration: dashed;
+}
+a:hover{
+    text-decoration: beige;
+    color: antiquewhite;
+    font-size: large;
+}
+tr:first-child{
+    background-color: blueviolet;
+}
+
+/*attribute selection*/
+/*to modify only tedxt type*/
+ input[type="text"]{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: azure;
+ }
